@@ -19,9 +19,22 @@ form.addEventListener('submit', e => {
     });
     scrollTo(0,0)
     scoreDisplay.classList.remove('d-none');
-    scoreSpan.textContent= `${score} % `
+    
     
     console.log('Score: '+ score);
+
+    let output = 0;
+
+const timer = setInterval(() => {
+    scoreSpan.textContent= `${output} % `;
+if(output === score){
+    clearInterval(timer);
+}else{
+    output++;
+
+}    
+}, 10);
     
 });
+
 
