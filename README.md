@@ -1,5 +1,3 @@
-# InteractiveNinjaQuiz-by-Net-Ninja-Course
-
 # Interactive Ninja Quiz - Net Ninja Course
 - a simple front end quiz app
 
